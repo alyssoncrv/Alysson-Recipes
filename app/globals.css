@@ -135,6 +135,10 @@ a {
     grid-template-columns: 1fr 1fr;
   }
 
+  .footer  {
+    padding: 0rem 2rem;
+  }
+
 }
 
 @media (max-width:900px) {
