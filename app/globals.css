@@ -24,6 +24,31 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  padding: 2rem 0 2rem 0;
+}
+
+h1, li {
+  color: #FAFAFA;
+}
+
+button {
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  color: #FAFAFA;
+  background-color: #8b78a5;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px solid #8b78a5;
+  color: #111111;
+  background-color: white;
+  transition: 0.3s;
+}
+
 .nav-container {
   background-color: white;
 }
@@ -93,6 +118,9 @@ a {
 }
 
 .items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0rem 1rem 2rem 1rem;
 }
 
@@ -103,6 +131,8 @@ a {
 }
 
 .items-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   box-shadow: 0px 4px 4px 0px #333333;
 }
 
@@ -111,25 +141,78 @@ a {
 }
 
 .footer-container {
-  height: 30vh;
+  height: 35vh;
   background-color: #111111;
 }
 
 .footer {
   max-width: 1100px;
   margin: 0 auto;
-  color: #FAFAFA;
-}
-
-.footer h1 {
-  padding: 1rem 0;
 }
 
 .footer ul > li {
   padding-bottom: 1rem;
 }
 
+.bg-white {
+  height: 80vh;
+  background-color: #FAFAFA;
+}
+
+.content-container {
+  background-color: #FAFAFA;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  top: -300px;
+  display: flex;
+}
+
+.aside {
+  padding: 1rem;
+}
+
+.aside h1 {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.aside p {
+  color: #666666;
+  font-weight: 500;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.content h2 {
+  padding-top: 1rem;
+}
+.content p {
+  padding-bottom: 0.5rem;
+}
+
+
+@media (max-width:1300px) {
+  .welcome {
+    height: 20vw;
+  }
+}
+
 @media (max-width:1100px) {
+  .nav-item {
+    display: none;
+  }
+
+  
+}
+
+@media (max-width:900px) {
+
+  .welcome {
+    height: 30vw;
+  }
   
   .items {
     grid-template-columns: 1fr 1fr;
@@ -139,15 +222,20 @@ a {
     padding: 0rem 2rem;
   }
 
+  .aside {
+    display: none;
+  }
+
 }
 
-@media (max-width:900px) {
+@media (max-width:700px) {
 
   .items {
     grid-template-columns: 1fr;
   }
 
-  .welcome h1::after, p {
+  .welcome h1::after,
+  .welcome p {
     display: none;
   }
 

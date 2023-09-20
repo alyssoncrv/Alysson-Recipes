@@ -7,93 +7,93 @@ const Main = () => {
 
       <div className="items">
 
-          <Link href="/">
+          <Link href="cookies">
             <Image
               className="items-image"
-              src='/cookies-01.jpg'
+              src='/cookies.jpg'
               alt='Cookies'
-              width={420}
-              height={420}
+              width={300}
+              height={300}
             />
           </Link>
 
-          <Link href="/">
+          <Link href="cinnamon-rolls">
             <Image
               className="items-image" 
-              src='/cookies-02.jpg'
-              alt='Cookies'
-              width={420}
-              height={420}
+              src='/cinnamon-rolls.jpg'
+              alt='Cinnamon Rolls'
+              width={300}
+              height={300}
             />
           </Link>
 
-          <Link href="/">
+          <Link href="biscuits">
             <Image
               className="items-image" 
-              src='/cookies-03.jpg'
-              alt='Cookies'
-              width={420}
-              height={420}
+              src='/biscuits.jpg'
+              alt='Biscuits'
+              width={300}
+              height={300}
             />
           </Link>
 
-          <Link href="/">
+          <Link href="apple-crisp">
             <Image
               className="items-image" 
-              src='/cookies-01.jpg'
-              alt='Cookies'
-              width={420}
-              height={420}
+              src='/apple-crisp.jpg'
+              alt='Apple Crisp'
+              width={300}
+              height={300}
             />
           </Link>
 
-          <Link href="/">
+          <Link href="cakes">
             <Image
               className="items-image" 
-              src='/cookies-01.jpg'
-              alt='Cookies'
-              width={420}
-              height={420}
+              src='/cakes.jpg'
+              alt='Cakes'
+              width={300}
+              height={300}
             />
           </Link>
 
-          <Link href="/">
+          <Link href="bread">
             <Image
               className="items-image" 
-              src='/cookies-01.jpg'
-              alt='Cookies'
-              width={420}
-              height={420}
+              src='/bread.jpg'
+              alt='Bread'
+              width={300}
+              height={300}
             />
           </Link>
 
-          <Link href="/">
+          <Link href="brownies">
             <Image
               className="items-image" 
-              src='/cookies-01.jpg'
-              alt='Cookies'
-              width={420}
-              height={420}
+              src='/brownies.jpg'
+              alt='Brownies'
+              width={300}
+              height={300}
             />
           </Link>
 
-          <Link href="/">
+          <Link href="pretzels">
             <Image
               className="items-image" 
-              src='/cookies-01.jpg'
-              alt='Cookies'
-              width={420}
-              height={420}
+              src='/pretzels.jpg'
+              alt='Pretzels'
+              width={300}
+              height={300}
             />
           </Link>
 
-          <Link href="/">
+          <Link href="pies">
             <Image
               className="items-image" 
-              src='/cookies-01.jpg'
-              alt='Cookies'
-              width={420}
-              height={420}
+              src='/pies.jpg'
+              alt='Pies'
+              width={300}
+              height={300}
             />
           </Link>
 
