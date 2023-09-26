@@ -2,11 +2,11 @@
 <p>👩‍🍳 The recreation of a recipe blog that I made years ago as a final grade for a cooking course, on my exchange to Canada. 🍪</p>
 <p>You can view the site <a href="https://alysson-recipes.vercel.app/" target="_blank">here</p>
 
-
 <h2>🚀 Stack</h2>
-<ul>
-    <li><a href="https://nextjs.org/" target="_blank">Next</a></li>
-</ul>
+<div style="display: inline_block">
+  <img align="center" alt="Alysson-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/nextjs-original.svg">
+  <img align="center" alt="Alysson-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
 
 <h2>📌 Knowledge</h2>
 <ul>
