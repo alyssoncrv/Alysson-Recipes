@@ -29,4 +29,4 @@
 
 <img src="/public/screenshot.png">
 
-Made with 🤍 by <a href="https://github.com/alyssoncarval/" target="_blank">Alysson Carvalho</a></p>
+Made with 🤍 by <a href="https://github.com/alyssoncrv/" target="_blank">Alysson Carvalho</a></p>
